@@ -1,0 +1,27 @@
+# 项目排除路径
+/.gradle/
+/build/
+/build/classes/java/main/
+/src/main/
+/build/libs/
+/.idea/
+/build/
+/build/resources/
+/build/libs/bukkitonline-0.1-snapshot.jar
+/build/generated/
+/build/tmp/
+/.gradle/
+/src/
+/build/classes/
+/gradle/
+/src/main/java/
+/src/main/java/top/wutzu/bukkitonline/
+/src/main/java/top/wutzu/bukkitonline/BukkitOnline.java
+/src/main/java/top/wutzu/bukkitonline/Index.java
+/src/main/resources/
+/src/main/resources/config.yml
+/src/main/resources/plugin.yml
+/.gitignore
+/build.gradle
+/gradle.properties
+/settings.gradle

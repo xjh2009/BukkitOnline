@@ -1,0 +1,3 @@
+name: BukkitOnline
+version: '${version}'
+main: top.wutzu.bukkitonline.BukkitOnline

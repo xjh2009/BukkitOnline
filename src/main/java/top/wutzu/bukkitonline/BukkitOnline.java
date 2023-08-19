@@ -35,6 +35,7 @@ public final class BukkitOnline extends JavaPlugin {
                     throw new RuntimeException(e);
                 }
                 httpServer.createContext("/",new Index());
+                httpServer.createContext("/main.css",new MainCSS());
                 httpServer.start();
             }
         }).start();

@@ -1,0 +1,3 @@
+name: BukkitOnline
+version: '0.2'
+main: top.wutzu.bukkitonline.BukkitOnline

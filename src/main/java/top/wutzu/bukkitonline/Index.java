@@ -4,16 +4,11 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.PluginLogger;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-
 public class Index implements HttpHandler {
     @Override
     public void handle(HttpExchange httpExchange) throws IOException {
@@ -32,7 +27,7 @@ public class Index implements HttpHandler {
                 "    <title>{ServerName}</title>\n" +
                 "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no\">\n" +
                 "    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/AyagawaSeirin/homepage@latest/mdui/css/mdui.min.css\">\n" +
-                "    <link rel=\"stylesheet\" href=\"https://v.06dn.com/api/v3/slave/download/0/L3VwbG9hZHMvMTU3NzUvMjAyMzA3LzI2LzE1Nzc1X3BTM09BODMyX21haW4uY3Nz/main.css?sign=oLUZFoSZqoe_vI_ExTSYzBKgGiQ8Dzzy04O-WIFd82E%3D%3A1690456360\">\n" +
+                "    <link rel=\"stylesheet\" href=\"./main.css\">\n" +
                 "    <link rel=\"stylesheet\" href=\"https://seir.in/assets/css/index.css\">\n" +
                 "    <!-- <link rel=\"stylesheet\" href=\"/assets/css/detaile.css\"> -->\n" +
                 "    <link rel=\"stylesheet\" href=\"https://at.alicdn.com/t/font_1625701_q2422cy34wn.css\">\n" +

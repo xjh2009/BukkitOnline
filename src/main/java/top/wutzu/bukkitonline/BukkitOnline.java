@@ -30,7 +30,7 @@ public final class BukkitOnline extends JavaPlugin {
             @Override
             public void run(){
                 try {
-                    httpServer = HttpServer.create(new InetSocketAddress(BukkitOnline.config.getString("HttpPort")),100);
+                    httpServer = HttpServer.create(new InetSocketAddress(BukkitOnline.config.getInt("HttpPort")),100);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }

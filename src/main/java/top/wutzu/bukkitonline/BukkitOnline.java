@@ -30,7 +30,7 @@ public final class BukkitOnline extends JavaPlugin {
             @Override
             public void run(){
                 try {
-                    httpServer = HttpServer.create(new InetSocketAddress(39058),100);
+                    httpServer = HttpServer.create(new InetSocketAddress(BukkitOnline.config.getString("HttpPort")),100);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
@@ -39,7 +39,7 @@ public final class BukkitOnline extends JavaPlugin {
                 httpServer.start();
             }
         }).start();
-        getLogger().info("开启http服务成功，端口39058");
+        getLogger().info("开启http服务成功，端口"+BukkitOnline.config.getString("HttpPort"));
     }
 
     @Override

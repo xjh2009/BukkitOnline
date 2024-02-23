@@ -21,7 +21,6 @@ public class Index implements HttpHandler {
         }
         double playerPer = (double) Bukkit.getOnlinePlayers().size() / Bukkit.getMaxPlayers();
         String page = "\n" +
-                "<!-- saved from url=(0016)https://seir.in/ -->\n" +
                 "<html lang=\"zh-CN\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n" +
                 "    \n" +
                 "    <title>{ServerName}</title>\n" +
@@ -98,7 +97,6 @@ public class Index implements HttpHandler {
                 "                <div class=\"rin-card-part\" id=\"works\">\n" +
                 "                    <div class=\"rin-card-title2 mdui-typo\"><a href=\"https://seir.in/#works\">#</a>TPS</div><div class=\"rin-card-title2 mdui-typo\">"+ Arrays.toString(Bukkit.getServer().getTPS()) +"</div>\n" +
                 "\n" +
-                "                    <a target=\"_blank\" href=\"https://github.com/AyagawaSeirin/UploadGithubForTypecho\">\n" +
                 "                        \n" +
                 "                    </a>\n" +
                 "                    \n" +
@@ -116,7 +114,7 @@ public class Index implements HttpHandler {
                 "                </div>\n" +
                 "\n" +
                 "                <div class=\"rin-card-part\" id=\"footer\">\n" +
-                "                    <div class=\"rin-card-content\">©2023 WutzuBert | Made with love by Seirin</div>\n" +
+                "                    <div class=\"rin-card-content\">©2024 WutzuBert | Made with love by Seirin | Reload XJHya</div>\n" +
                 "                </div>\n" +
                 "            </div>\n" +
                 "        </div>\n" +
